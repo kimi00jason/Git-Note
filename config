@@ -1,0 +1,17 @@
+#personal account
+Host personal
+	HostName github.com
+	User git
+	IdentityFile ~/.ssh/kimi00jason
+	IdentitiesOnly yes
+
+#work account
+Host work
+	HostName github.com
+	User git
+	IdentityFile ~/.ssh/JTengGentexCorp
+	IdentitiesOnly yes
+	
+	
+#personal:kimi00jason/QML-Play-Ground.git
+#work:JTengGentexCorp/BreathingMachine.git
